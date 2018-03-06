@@ -23,43 +23,43 @@
                 android:id="@+id/imageView7"
                 android:layout_width="67dp"
                 android:layout_height="40dp"
-                app:srcCompat="@drawable/ic_launcher_background" />
+                app:srcCompat="@drawable/blank" />
 
             <ImageView
                 android:id="@+id/imageView6"
                 android:layout_width="67dp"
                 android:layout_height="40dp"
-                app:srcCompat="@drawable/ic_launcher_background" />
+                app:srcCompat="@drawable/one" />
 
             <ImageView
                 android:id="@+id/imageView5"
                 android:layout_width="67dp"
                 android:layout_height="40dp"
-                app:srcCompat="@drawable/ic_launcher_background" />
+                app:srcCompat="@drawable/two" />
 
             <ImageView
                 android:id="@+id/imageView4"
                 android:layout_width="67dp"
                 android:layout_height="40dp"
-                app:srcCompat="@drawable/ic_launcher_background" />
+                app:srcCompat="@drawable/three" />
 
             <ImageView
                 android:id="@+id/imageView3"
                 android:layout_width="67dp"
                 android:layout_height="40dp"
-                app:srcCompat="@drawable/ic_launcher_background" />
+                app:srcCompat="@drawable/four" />
 
             <ImageView
                 android:id="@+id/imageView2"
                 android:layout_width="67dp"
                 android:layout_height="40dp"
-                app:srcCompat="@drawable/ic_launcher_background" />
+                app:srcCompat="@drawable/five" />
 
             <ImageView
                 android:id="@+id/imageView"
                 android:layout_width="67dp"
                 android:layout_height="40dp"
-                app:srcCompat="@drawable/ic_launcher_background"
+                app:srcCompat="@drawable/six"
                 tools:layout_editor_absoluteX="16dp"
                 tools:layout_editor_absoluteY="16dp" />
 
