@@ -21,45 +21,59 @@
 
             <ImageView
                 android:id="@+id/imageView7"
-                android:layout_width="67dp"
-                android:layout_height="40dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:onClick="cellClick"
+                android:tag="0.0"
                 app:srcCompat="@drawable/blank" />
 
             <ImageView
                 android:id="@+id/imageView6"
                 android:layout_width="67dp"
                 android:layout_height="40dp"
-                app:srcCompat="@drawable/one" />
+                android:onClick="cellClick"
+                android:tag="0.1"
+                app:srcCompat="@drawable/blank" />
 
             <ImageView
                 android:id="@+id/imageView5"
                 android:layout_width="67dp"
                 android:layout_height="40dp"
-                app:srcCompat="@drawable/two" />
+                android:onClick="cellClick"
+                android:tag="0.2"
+                app:srcCompat="@drawable/blank" />
 
             <ImageView
                 android:id="@+id/imageView4"
                 android:layout_width="67dp"
                 android:layout_height="40dp"
-                app:srcCompat="@drawable/three" />
+                android:onClick="cellClick"
+                android:tag="0.3"
+                app:srcCompat="@drawable/blank" />
 
             <ImageView
                 android:id="@+id/imageView3"
                 android:layout_width="67dp"
                 android:layout_height="40dp"
-                app:srcCompat="@drawable/four" />
+                android:onClick="cellClick"
+                android:tag="0.4"
+                app:srcCompat="@drawable/blank" />
 
             <ImageView
                 android:id="@+id/imageView2"
                 android:layout_width="67dp"
                 android:layout_height="40dp"
-                app:srcCompat="@drawable/five" />
+                android:onClick="cellClick"
+                android:tag="0.5"
+                app:srcCompat="@drawable/blank" />
 
             <ImageView
                 android:id="@+id/imageView"
                 android:layout_width="67dp"
-                android:layout_height="40dp"
-                app:srcCompat="@drawable/six"
+                android:layout_height="match_parent"
+                android:onClick="cellClick"
+                android:tag="0.6"
+                app:srcCompat="@drawable/blank"
                 tools:layout_editor_absoluteX="16dp"
                 tools:layout_editor_absoluteY="16dp" />
 
@@ -74,43 +88,57 @@
                 android:id="@+id/imageView9"
                 android:layout_width="67dp"
                 android:layout_height="40dp"
-                app:srcCompat="@drawable/ic_launcher_background" />
+                android:onClick="cellClick"
+                android:tag="1.0"
+                app:srcCompat="@drawable/blank" />
 
             <ImageView
                 android:id="@+id/imageView10"
                 android:layout_width="67dp"
                 android:layout_height="40dp"
-                app:srcCompat="@drawable/ic_launcher_background" />
+                android:onClick="cellClick"
+                android:tag="1.1"
+                app:srcCompat="@drawable/blank" />
 
             <ImageView
                 android:id="@+id/imageView11"
                 android:layout_width="67dp"
                 android:layout_height="40dp"
-                app:srcCompat="@drawable/ic_launcher_background" />
+                android:onClick="cellClick"
+                android:tag="1.2"
+                app:srcCompat="@drawable/blank" />
 
             <ImageView
                 android:id="@+id/imageView12"
                 android:layout_width="67dp"
                 android:layout_height="40dp"
-                app:srcCompat="@drawable/ic_launcher_background" />
+                android:onClick="cellClick"
+                android:tag="1.3"
+                app:srcCompat="@drawable/blank" />
 
             <ImageView
                 android:id="@+id/imageView13"
                 android:layout_width="67dp"
                 android:layout_height="40dp"
-                app:srcCompat="@drawable/ic_launcher_background" />
+                android:onClick="cellClick"
+                android:tag="1.4"
+                app:srcCompat="@drawable/blank" />
 
             <ImageView
                 android:id="@+id/imageView14"
                 android:layout_width="67dp"
                 android:layout_height="40dp"
-                app:srcCompat="@drawable/ic_launcher_background" />
+                android:onClick="cellClick"
+                android:tag="1.5"
+                app:srcCompat="@drawable/blank" />
 
             <ImageView
                 android:id="@+id/imageView15"
                 android:layout_width="67dp"
                 android:layout_height="40dp"
-                app:srcCompat="@drawable/ic_launcher_background"
+                android:onClick="cellClick"
+                android:tag="1.6"
+                app:srcCompat="@drawable/blank"
                 tools:layout_editor_absoluteX="16dp"
                 tools:layout_editor_absoluteY="16dp" />
         </TableRow>
@@ -124,43 +152,57 @@
                 android:id="@+id/imageView16"
                 android:layout_width="67dp"
                 android:layout_height="40dp"
-                app:srcCompat="@drawable/ic_launcher_background" />
+                android:onClick="cellClick"
+                android:tag="2.0"
+                app:srcCompat="@drawable/blank" />
 
             <ImageView
                 android:id="@+id/imageView17"
                 android:layout_width="67dp"
                 android:layout_height="40dp"
-                app:srcCompat="@drawable/ic_launcher_background" />
+                android:onClick="cellClick"
+                android:tag="2.1"
+                app:srcCompat="@drawable/blank" />
 
             <ImageView
                 android:id="@+id/imageView18"
                 android:layout_width="67dp"
                 android:layout_height="40dp"
-                app:srcCompat="@drawable/ic_launcher_background" />
+                android:onClick="cellClick"
+                android:tag="2.2"
+                app:srcCompat="@drawable/blank" />
 
             <ImageView
                 android:id="@+id/imageView19"
                 android:layout_width="67dp"
                 android:layout_height="40dp"
-                app:srcCompat="@drawable/ic_launcher_background" />
+                android:onClick="cellClick"
+                android:tag="2.3"
+                app:srcCompat="@drawable/blank" />
 
             <ImageView
                 android:id="@+id/imageView20"
                 android:layout_width="67dp"
                 android:layout_height="40dp"
-                app:srcCompat="@drawable/ic_launcher_background" />
+                android:onClick="cellClick"
+                android:tag="2.4"
+                app:srcCompat="@drawable/blank" />
 
             <ImageView
                 android:id="@+id/imageView21"
                 android:layout_width="67dp"
                 android:layout_height="40dp"
-                app:srcCompat="@drawable/ic_launcher_background" />
+                android:onClick="cellClick"
+                android:tag="2.5"
+                app:srcCompat="@drawable/blank" />
 
             <ImageView
                 android:id="@+id/imageView22"
                 android:layout_width="67dp"
                 android:layout_height="40dp"
-                app:srcCompat="@drawable/ic_launcher_background"
+                android:onClick="cellClick"
+                android:tag="2.6"
+                app:srcCompat="@drawable/blank"
                 tools:layout_editor_absoluteX="16dp"
                 tools:layout_editor_absoluteY="16dp" />
         </TableRow>
@@ -174,43 +216,57 @@
                 android:id="@+id/imageView23"
                 android:layout_width="67dp"
                 android:layout_height="40dp"
-                app:srcCompat="@drawable/ic_launcher_background" />
+                android:onClick="cellClick"
+                android:tag="3.0"
+                app:srcCompat="@drawable/blank" />
 
             <ImageView
                 android:id="@+id/imageView24"
                 android:layout_width="67dp"
                 android:layout_height="40dp"
-                app:srcCompat="@drawable/ic_launcher_background" />
+                android:onClick="cellClick"
+                android:tag="3.1"
+                app:srcCompat="@drawable/blank" />
 
             <ImageView
                 android:id="@+id/imageView25"
                 android:layout_width="67dp"
                 android:layout_height="40dp"
-                app:srcCompat="@drawable/ic_launcher_background" />
+                android:onClick="cellClick"
+                android:tag="3.2"
+                app:srcCompat="@drawable/blank" />
 
             <ImageView
                 android:id="@+id/imageView26"
                 android:layout_width="67dp"
                 android:layout_height="40dp"
-                app:srcCompat="@drawable/ic_launcher_background" />
+                android:onClick="cellClick"
+                android:tag="3.3"
+                app:srcCompat="@drawable/blank" />
 
             <ImageView
                 android:id="@+id/imageView27"
                 android:layout_width="67dp"
                 android:layout_height="40dp"
-                app:srcCompat="@drawable/ic_launcher_background" />
+                android:onClick="cellClick"
+                android:tag="3.4"
+                app:srcCompat="@drawable/blank" />
 
             <ImageView
                 android:id="@+id/imageView28"
                 android:layout_width="67dp"
                 android:layout_height="40dp"
-                app:srcCompat="@drawable/ic_launcher_background" />
+                android:onClick="cellClick"
+                android:tag="3.5"
+                app:srcCompat="@drawable/blank" />
 
             <ImageView
                 android:id="@+id/imageView29"
                 android:layout_width="67dp"
                 android:layout_height="40dp"
-                app:srcCompat="@drawable/ic_launcher_background"
+                android:onClick="cellClick"
+                android:tag="3.6"
+                app:srcCompat="@drawable/blank"
                 tools:layout_editor_absoluteX="16dp"
                 tools:layout_editor_absoluteY="16dp" />
         </TableRow>
@@ -224,43 +280,57 @@
                 android:id="@+id/imageView30"
                 android:layout_width="67dp"
                 android:layout_height="40dp"
-                app:srcCompat="@drawable/ic_launcher_background" />
+                android:onClick="cellClick"
+                android:tag="4.0"
+                app:srcCompat="@drawable/blank" />
 
             <ImageView
                 android:id="@+id/imageView31"
                 android:layout_width="67dp"
                 android:layout_height="40dp"
-                app:srcCompat="@drawable/ic_launcher_background" />
+                android:onClick="cellClick"
+                android:tag="4.1"
+                app:srcCompat="@drawable/blank" />
 
             <ImageView
                 android:id="@+id/imageView32"
                 android:layout_width="67dp"
                 android:layout_height="40dp"
-                app:srcCompat="@drawable/ic_launcher_background" />
+                android:onClick="cellClick"
+                android:tag="4.2"
+                app:srcCompat="@drawable/blank" />
 
             <ImageView
                 android:id="@+id/imageView33"
                 android:layout_width="67dp"
                 android:layout_height="40dp"
-                app:srcCompat="@drawable/ic_launcher_background" />
+                android:onClick="cellClick"
+                android:tag="4.3"
+                app:srcCompat="@drawable/blank" />
 
             <ImageView
                 android:id="@+id/imageView34"
                 android:layout_width="67dp"
                 android:layout_height="40dp"
-                app:srcCompat="@drawable/ic_launcher_background" />
+                android:onClick="cellClick"
+                android:tag="4.4"
+                app:srcCompat="@drawable/blank" />
 
             <ImageView
                 android:id="@+id/imageView35"
                 android:layout_width="67dp"
                 android:layout_height="40dp"
-                app:srcCompat="@drawable/ic_launcher_background" />
+                android:onClick="cellClick"
+                android:tag="4.5"
+                app:srcCompat="@drawable/blank" />
 
             <ImageView
                 android:id="@+id/imageView36"
                 android:layout_width="67dp"
                 android:layout_height="40dp"
-                app:srcCompat="@drawable/ic_launcher_background"
+                android:onClick="cellClick"
+                android:tag="4.6"
+                app:srcCompat="@drawable/blank"
                 tools:layout_editor_absoluteX="16dp"
                 tools:layout_editor_absoluteY="16dp" />
         </TableRow>
@@ -273,43 +343,57 @@
                 android:id="@+id/imageView37"
                 android:layout_width="67dp"
                 android:layout_height="40dp"
-                app:srcCompat="@drawable/ic_launcher_background" />
+                android:onClick="cellClick"
+                android:tag="5.0"
+                app:srcCompat="@drawable/blank" />
 
             <ImageView
                 android:id="@+id/imageView38"
                 android:layout_width="67dp"
                 android:layout_height="40dp"
-                app:srcCompat="@drawable/ic_launcher_background" />
+                android:onClick="cellClick"
+                android:tag="5.1"
+                app:srcCompat="@drawable/blank" />
 
             <ImageView
                 android:id="@+id/imageView39"
                 android:layout_width="67dp"
                 android:layout_height="40dp"
-                app:srcCompat="@drawable/ic_launcher_background" />
+                android:onClick="cellClick"
+                android:tag="5.2"
+                app:srcCompat="@drawable/blank" />
 
             <ImageView
                 android:id="@+id/imageView40"
                 android:layout_width="67dp"
                 android:layout_height="40dp"
-                app:srcCompat="@drawable/ic_launcher_background" />
+                android:onClick="cellClick"
+                android:tag="5.3"
+                app:srcCompat="@drawable/blank" />
 
             <ImageView
                 android:id="@+id/imageView41"
                 android:layout_width="67dp"
                 android:layout_height="40dp"
-                app:srcCompat="@drawable/ic_launcher_background" />
+                android:onClick="cellClick"
+                android:tag="5.4"
+                app:srcCompat="@drawable/blank" />
 
             <ImageView
                 android:id="@+id/imageView42"
                 android:layout_width="67dp"
                 android:layout_height="40dp"
-                app:srcCompat="@drawable/ic_launcher_background" />
+                android:onClick="cellClick"
+                android:tag="5.5"
+                app:srcCompat="@drawable/blank" />
 
             <ImageView
                 android:id="@+id/imageView43"
                 android:layout_width="67dp"
                 android:layout_height="40dp"
-                app:srcCompat="@drawable/ic_launcher_background"
+                android:onClick="cellClick"
+                android:tag="5.6"
+                app:srcCompat="@drawable/blank"
                 tools:layout_editor_absoluteX="16dp"
                 tools:layout_editor_absoluteY="16dp" />
         </TableRow>
